@@ -4,7 +4,7 @@ import AuthProvider from "./contexts/AuthContext";
 import SocketProvider from "./contexts/SocketContext";
 function App() {
   return (
-    <div className=" bg-slate-400 h-screen">
+    <div>
       <AuthProvider>
         <SocketProvider>
           <Router />
